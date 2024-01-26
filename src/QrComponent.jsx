@@ -27,7 +27,7 @@ function QrCodeComponent() {
   http://ovz10.j90211046.pxlzp.vps.myjino.ru/?code=https://qr.nspk.ru/AD1P00692H5LGNMM8IB9PBU8DTCRO7C7?type=02&bank=100000000259&sum=384000&cur=RUB&crc=112F#Intent;scheme=bank100000000004;end
 
   return (
-    <div class="qrCodeComponent">
+    <div className="qrCodeComponent">
       <img className="qrCodeComponent__logo" src={logo} alt="logo" />
       <img className="qrCodeComponent__wblogo" id="wb_logo" src={wblogo} alt="wblogo" />
       {valueQrCode &&
@@ -38,7 +38,7 @@ function QrCodeComponent() {
           viewBox={`0 0 256 256`}
         />}
       {cost && <div className="qrCodeComponent__cost">{cost} РУБ</div>}
-      <a class="qrCodeComponent__link" href="https://www.wildberries.ru/">
+      <a className="qrCodeComponent__link" href="https://www.wildberries.ru/">
         <button className="qrCodeComponent__button">Вернуться в Wildberries</button>
       </a>
     </div>
