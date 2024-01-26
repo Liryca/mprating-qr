@@ -14,8 +14,6 @@ function QrCodeComponent() {
 
     if (queryString !== '') {
       const str = queryString.split("&");
-      console.log(str)
-      console.log(queryString)
       setCost(str[2].slice(4, str[2].length) / 100);
       setValueQrCode(queryString?.substring(6))
     }
