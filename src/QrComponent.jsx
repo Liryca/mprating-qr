@@ -20,10 +20,6 @@ function QrCodeComponent() {
 
   }, [])
 
-
-  https://qr.nspk.ru/AD1P00692H5LGNMM8IB9PBU8DTCRO7C7?type=02&bank=100000000259&sum=384000&cur=RUB&crc=112F#Intent;scheme=bank100000000004;end
-  http://ovz10.j90211046.pxlzp.vps.myjino.ru/?code=https://qr.nspk.ru/AD1P00692H5LGNMM8IB9PBU8DTCRO7C7?type=02&bank=100000000259&sum=384000&cur=RUB&crc=112F#Intent;scheme=bank100000000004;end
-
   return (
     <div className="qrCodeComponent">
       <img className="qrCodeComponent__logo" src={logo} alt="logo" />
